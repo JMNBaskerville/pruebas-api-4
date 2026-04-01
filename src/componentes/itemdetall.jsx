@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, useParams } from "react-router-dom";
+
 
 export default function Itemdetalil({ item }) {
   return (
@@ -11,9 +13,9 @@ export default function Itemdetalil({ item }) {
         </h4>
         <p> {item.gender} </p>
         <p> {item.firstname} </p>
-        <a className="ver-mas" href="a">
-          ver mas
-        </a>
+        <Link className="ver-mas" to="tito">
+          verasda mas
+        </Link>
       </div>
     </div>
   );

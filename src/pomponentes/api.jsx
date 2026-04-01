@@ -38,7 +38,7 @@ export function Api(id) {
   )
 }
 
-export function pedir_id({id }){
+export function pedir_id( id ){
     const item = data.find((el) => el.id === id)
     return(
         new Promise((resolve, reject) => {
